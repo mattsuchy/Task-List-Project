@@ -20,7 +20,6 @@ function addTask(e) {
     if (taskInput.value === '') {
         alert('Add a Task');
     }
-
     //Create li element
     const li = document.createElement('li');
     //Add Class
